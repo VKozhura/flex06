@@ -8,6 +8,7 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	color: #0d3351;	
+	background-color: #f3f3f3;
 }
 
 a {
@@ -38,7 +39,6 @@ img {
 .main-header {
 	padding-top: 30px;
 	padding-bottom: 200px;
-	background-color: #f3f3f3;
 	background-image: url("img/bg.png");
 	background-repeat: no-repeat;
 	background-position: top;
@@ -92,6 +92,10 @@ a[href^="tel:"] {
 	font-weight: 400;
 }
 
+.promo {
+	position: relative;
+}
+
 .promo-section-title {
 	margin: 0;
 	margin-bottom: 55px;
@@ -118,20 +122,21 @@ span.promo-title-big {
 }
 	
 .button {
-	position: relative;
 	display: inline-block;
-	padding: 17px 50px 17px 50px;
+	box-sizing: border-box;
+	width: 202px;
+	padding: 17px 0 17px 0;
 	font: inherit;
 	color: #ffffff;
+	text-align: center;
 	background-color: #33c7fd;
 }
 
-.button::after {
+.promo::after {
 	position: absolute;
 	content: "";
 
-	top: 60px;
-    right: 20px;
+    left: 500px;
 
 	background-image: url("img/bg2-line.png");
 	width: 163px;
@@ -152,6 +157,104 @@ span.promo-title-big {
 	text-align: center;
 }
 
-  
+.catalog-sorting {
+	margin: 10px 0 35px 0;
+	text-align: center;
+}
 
+.catalog-list {
+	list-style: none;
+	margin: 0;
+	margin-bottom: 25px;
+	padding: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	flex-wrap: wrap;
+	max-height: 965px;
+}
+
+.catalog-item {
+	width: 555px;
+	height: 305px;
+	background-color: #ffffff;
+}
+
+.catalog-item-big {
+	width: 555px;
+	height: 630px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.catalog-item:nth-child(3) {
+	margin-bottom: 20px;
+}
+
+.catalog-item:nth-child(4) {
+	margin-bottom: 20px;
+}
+
+.catalog-item-wrapper {
+	padding-top: 25px;
+	padding-left: 55px;
+}
+
+.catalog-title-tour {
+	margin: 0;
+	margin-bottom: 15px;
+	font-family: 'Roboto Slab', Times, serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #00a2dd;
+}
+
+.tour-description-list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.tour-description-title {
+	font-weight: 700;
+}
+
+.tour-description-text {
+	margin: 0;
+	margin-left: 5px;
+}
+
+.tour-price {
+	margin: 0;
+	margin-top: 23px;
+	font-family: 'Roboto Slab', Times, serif;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+}
+
+.tour-price-strikeout {
+	font-size: 18px;
+	line-height: 18px;
+	color: #7a8f9f;
+	text-decoration: line-through;
+	margin-left: 30px;
+}
+
+.gallery-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery-item {
+	display: flex;
+}
+
+  
+  
 
