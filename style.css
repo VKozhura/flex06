@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+	min-width: 1200px;
+	
+	font-family: 'Raleway', Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #0d3351;	
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0;
+	border: 0;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main-header {
+	padding-top: 30px;
+	padding-bottom: 200px;
+	background-color: #f3f3f3;
+	background-image: url("img/bg.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+.main-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-logo {
+	order: 3;
+}
+
+.main-nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+.site-nav {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 445px;
+	margin: 0 180px 0 0;
+	padding: 0;
+}
+
+.user-nav {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 510px;
+	margin: 0;
+	padding: 0;
+}
+
+a[href^="tel:"] {
+	font-family: inherit;
+	color: inherit;
+	font-weight: 700;
+}
+
+.telephone-support span {
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.promo-section-title {
+	margin: 0;
+	margin-bottom: 55px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Roboto Slab', Times, serif;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: 400;
+}
+
+span.promo-title-big {
+	display: inline-block;
+	font-size: 100px;
+	text-transform: uppercase;
+	line-height: 100px;
+    margin-top: 35px;
+}
+
+.button-wrapper{
+	display: flex;
+	justify-content: center;
+}
+	
+.button {
+	position: relative;
+	display: inline-block;
+	padding: 17px 50px 17px 50px;
+	font: inherit;
+	color: #ffffff;
+	background-color: #33c7fd;
+}
+
+.button::after {
+	position: absolute;
+	content: "";
+
+	top: 60px;
+    right: 20px;
+
+	background-image: url("img/bg2-line.png");
+	width: 163px;
+	height: 300px;
+}
+
+.catalog {
+	padding-top: 115px;
+	padding-bottom: 75px;
+}
+
+.section-title {
+	margin: 0;
+	font-family: 'Roboto Slab', Times, serif;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: 400;
+	text-align: center;
+}
+
+  
+
+
